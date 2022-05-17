@@ -1,0 +1,10 @@
+.top__banner{
+
+    height: 450px;
+    max-width: 100%;
+    // background-image: url(${props.backgroundImage});
+    mask-image: linear-gradient(to bottom, white 0%, white 10%, white 50%, transparent 100%);
+    background-size: cover;
+    background-position-x: left;
+    background-repeat: no-repeat;
+}

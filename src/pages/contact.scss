@@ -1,0 +1,24 @@
+.contact__container{
+
+    img{
+        height: 450px;
+        width: 100%;
+        // background-image: url(${props.backgroundImage});
+        mask-image: linear-gradient(to bottom, white 0%, white 10%, white 50%, transparent 100%);
+        background-size: cover;
+        background-position-x: left;
+        background-repeat: no-repeat;
+        object-fit: cover;
+
+    }
+}
+
+
+.contactTemplate__container{
+
+    
+
+   
+}
+
+

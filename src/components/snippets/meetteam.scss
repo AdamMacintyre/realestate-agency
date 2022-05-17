@@ -1,0 +1,315 @@
+
+        .meetTeam__container {
+            padding: 120px 0 120px;
+            position: relative;
+           
+            overflow: hidden;
+
+            @media screen and (min-width: 280px) and (max-width: 1024px){
+                
+                padding: 120px 0 0px;
+        
+            }
+           
+
+
+            &:before{
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background:  linear-gradient(to top, white 0%, white 20%, white 70%, transparent 100%),url('../../assets/teambg.jpg');
+                // background: url('/./images/team.jpg');
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                filter: grayscale(1);
+                mask-image: linear-gradient(to bottom, white 0%, white 10%, white 50%, transparent 100%);
+
+            }
+            &:after {
+                content: '';
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background: #fff;
+                opacity: .35;
+                
+            }
+
+        }
+
+
+.meetTeamInner{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 970px;
+    display: flex;
+
+
+   
+
+    @media screen and (min-width: 280px) and (max-width: 1024px){
+
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+    
+}
+
+
+        .teamImg__container{
+            position: relative;
+            margin-right: -165px;
+            background-color: rgba(255,255,255,0.9);
+            height: fit-content;
+            mask-image: linear-gradient(to top, white 0%, white 10%, white 50%, transparent 100%);
+            z-index: 1;
+            width: 50%;
+            flex: 0.5;
+
+            margin-top: -100px;
+            margin-left: calc(calc(-1430px + 1170px) / 2);
+            margin-right: -165px;
+            position: relative;
+            z-index: 1;
+
+            @media screen and (min-width: 280px) and (max-width: 1024px){
+
+                width: 100%;
+                flex: 1;
+                mask-image: none;
+                margin: 0;
+                padding: 0;
+        
+            }
+
+
+        
+                &::before{
+                    content: '';
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    mask-image: linear-gradient(to right, white 0%, white 10%, white 50%, transparent 100%);
+                    
+
+                    
+                }
+            
+
+
+
+            img {
+                width: 100%;
+                height: 100%;
+                margin: auto;
+                display: block;
+                mask-image: linear-gradient(to bottom, white 0%, white 10%, white 50%, transparent 100%);
+                position: relative;
+
+                
+
+
+                    @media screen and (min-width: 280px) and (max-width: 1024px){
+
+                        height: 315px;
+                        object-fit: cover;
+                        mask-image: none;
+                
+                    }
+
+
+                  
+                
+      
+         
+            }
+
+
+        }
+
+
+        .teamAbout__container {
+            position: relative;
+            z-index: 1;
+            z-index: 1;
+            width: 50%;
+            flex: 0.5;
+
+         
+
+               @media screen and (min-width: 280px) and (max-width: 1024px){
+
+                width: 100%;
+                flex: 1;
+                margin: 0;
+                padding: 0;
+
+                padding: 80px 75px;
+                box-shadow: 3px 4px 35px 0px rgba(0, 0, 0, 0.15);
+        
+            }
+
+
+         
+
+           
+                div {
+                    position: relative;
+                    z-index: 50;
+
+                 
+                }
+
+                h1{
+                        font-family:var(--font-family), sans-serif;
+                        font-size: 5.1rem;
+                        font-weight: 600;
+                        width: 100%;
+                        position: relative;
+                        text-transform: uppercase;
+                        letter-spacing: -0.025em;
+                        color: var(--text-dark);
+                        text-align: left;
+                        white-space: nowrap;
+
+                     
+                        @media screen and (min-width: 280px) and (max-width: 1024px){
+
+                            font-size: 0.9rem;
+                         
+                            font-size: 3.7rem;
+
+                        }
+                        
+                        
+
+
+                            span {
+                                overflow: hidden;
+                                display: block;
+                                color: #bbb;
+                                margin-bottom: -15px;
+                                position: relative;
+                                width: calc(calc(calc(100% - 124px) + 75px) + 15px);
+                    
+
+                                &:after{
+                                    content: '';
+                                    width: 100%;
+                                    height: 3px;
+                                    position: absolute;
+                                    z-index: -1;
+                                    top: 68px;
+                                    right: 0;
+                                    margin-left: auto;
+                                    margin-right: 0 auto;
+                                    transform: translateX(50%);
+                                    background: linear-gradient(to right, rgba(0, 0, 0, 0) 10%, rgb(77, 0, 165) 100%);
+                                    width: 100%;
+                                    width: calc(100% - 10px + 510px);
+
+                                    right: calc(-75px - 15px);
+
+                                    @media screen and (min-width: 280px) and (max-width: 1024px){
+
+                                      background: none;
+            
+                                    }
+                                    
+                                  }
+                            }
+
+                    }
+                   
+
+        }
+
+
+
+
+.teamAboutInner{
+    margin-left: -65px;
+    
+    position: relative;
+    z-index: 1;
+    background: rgba(255, 255, 255, .88);
+    margin-top: 200px;
+    margin-bottom: -100px;
+    padding: 80px 75px;
+    box-shadow: 3px 4px 35px 0px rgba(0, 0, 0, 0.15);
+
+    margin-right: calc(calc(-100vw + 1170px) / 2);
+
+
+
+       @media screen and (min-width: 280px) and (max-width: 1024px){
+
+        
+        margin: 0;
+        padding: 0;
+        width: 100%;
+
+    }
+
+
+}
+
+
+.teamAboutShownText{
+  
+        text-align: left;
+        font-size: 1.05rem;
+        font-weight: 400;
+        letter-spacing: -0.020rem;
+        line-height: 2.2rem;
+        color: var(--text-dark);
+
+      
+
+      
+
+        @media screen and (min-width: 280px) and (max-width: 1024px){
+
+            font-size: 0.9rem;
+            line-height: 2rem;
+            display: none;
+
+        }
+}
+
+
+
+
+.teamAboutHiddenText{
+
+        display: none;
+
+    @media screen and (min-width: 280px) and (max-width: 1024px){
+
+        display: block;
+
+        font-size: 1.1rem;
+        font-weight: 400;
+        letter-spacing: -0.020rem;
+        line-height: 2.2rem;
+        color: var(--text-dark);
+     
+      
+    
+    }
+}
+
